@@ -1,0 +1,38 @@
+
+/* End of css reset*/
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 20px;
+  }
+  .emoji{
+    padding: 30px;
+    font-size: 4rem;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 5px grey;
+ }
+  #emojis {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+  }
+
+  .emoji-decimal{
+     font-size: 2rem;
+     background-color: #cccccc;
+     text-align: center;
+  }
+ 
+  .emoji-one {
+    display: flex;
+    display:inline-grid;
+    padding: 30px;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-bottom: 10px;
+ }
